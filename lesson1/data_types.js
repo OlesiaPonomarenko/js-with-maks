@@ -86,3 +86,19 @@ function pairedRoses(roses) {
 
 console.log(countRoses);
 console.log(pairedRoses(roses));
+
+// 3. Є nuts горішків, які потрібно поділити порівну між people людьми.
+//  По скільки горішків отримає кожна людина.
+
+const nuts = 137;
+const people = 13;
+// залишок;
+const countNuts = nuts % people;
+// для рівної кількості
+const nutsPeople = nuts - countNuts;
+// всім порівну
+const sameNuts = nutsPeople / people;
+
+console.log(countNuts);
+console.log(nutsPeople);
+console.log(sameNuts);
