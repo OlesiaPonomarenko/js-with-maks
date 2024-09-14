@@ -41,51 +41,42 @@ console.log(guestBalloons);
 
 const cars = "BMW";
 const speed = 75;
-const accident = true;
-const storeCars = [cars, speed, accident];
+const isAccident = true; // префікс is
+const storeCars = [cars, speed, isAccident];
 
 console.log(typeof cars);
 console.log(typeof speed);
-console.log(typeof accident);
+console.log(typeof isAccident);
 console.log(typeof storeCars);
 
-let fruits = "aple";
+let fruits = "apple";
 let countFruit = 75;
-let fresh = true;
-let storeFruits = [fruits, countFruit, fresh];
+let isFresh = true;
+let storeFruits = [fruits, countFruit, isFresh];
 
 console.log(typeof fruits);
 console.log(typeof countFruit);
-console.log(typeof fresh);
+console.log(typeof isFresh);
 console.log(typeof storeFruits);
 
 fruits = "Ananas";
 countFruit = 80;
-fresh = false;
-storeFruits = [fruits, countFruit, fresh];
+isFresh = false;
+storeFruits = [fruits, countFruit, isFresh];
 
 console.log(typeof fruits);
 console.log(typeof countFruit);
-console.log(typeof fresh);
+console.log(typeof isFresh);
 console.log(typeof storeFruits);
 
 // // 2. Оголосити число n, дати йому будь-яке значення
 //     а) Перевірити, чи це число є парним чи непарним
 //     б) Знайти останню цифру числа.
 
-const roses = 70;
+const roses = 71;
 const countRoses = roses % 10; //     Знайти останню цифру числа.
 
-function pairedRoses(roses) {
-  if (countRoses < 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
-
 console.log(countRoses);
-console.log(pairedRoses(roses));
 
 // 3. Є nuts горішків, які потрібно поділити порівну між people людьми.
 //  По скільки горішків отримає кожна людина.
