@@ -11,7 +11,7 @@ const workerOne = "Вася";
 const workerTwo = "Коля";
 const workerThree = "Арсен";
 const totalDayForWork = 100;
-const dayToday = 7;
+const dayToday = 99;
 const dayWork = dayToday % 3;
 
 console.log(`На виконання робіт потрібно ${totalDayForWork} днів`);
