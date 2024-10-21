@@ -35,3 +35,17 @@
 
 
 */
+const isOpenDoor = true;
+const isOpenWindow = true;
+const isMove = true;
+const _isSignal = true;
+
+function callPolice(isOpenDoor, isOpenWindow, isMove, _isSignal) {
+    if (isOpenDoor & isOpenWindow & isMove) {
+        return `Ау-ау викликайте полісію`;
+    } else (_isSignal){
+    return `Не хвилютесь, просто злодії придивляються:)`
+    }
+}
+
+console.log(callPolice(1, 1, ));
