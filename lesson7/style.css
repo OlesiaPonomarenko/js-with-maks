@@ -1,0 +1,47 @@
+.first {
+    background-color: blueviolet;
+}
+
+.second {
+    background-color: blue;
+}
+
+.thirds {
+    background-color: red;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.doggy {
+    width: 800px;
+    height: max-content;
+    opacity: 0.2;
+}
+
+.catty {
+    width: 800px;
+    height: max-content;
+    opacity: 0.5;
+}
+
+.sun {
+    width: 800px;
+    height: max-content;
+    opacity: 0.7;
+}
+
+h1 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.rorry {
+    color: red;
+}
+
+.po {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}

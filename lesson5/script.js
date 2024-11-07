@@ -49,3 +49,10 @@ function callPolice(isOpenDoor, isOpenWindow, isMove, _isSignal) {
 }
 
 console.log(callPolice(1, 1, ));
+
+const isMovE = true;
+const isLightOn = true;
+const isDayOrNight = true;
+const isPeopleHome = true;
+
+function move ()

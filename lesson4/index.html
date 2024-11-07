@@ -4,30 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мои координаты</title>
-    <script type="module" src="./../lesson2/homework2task1.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script type="module" src="./../lesson2/homework2task1.js" defer></script>
     <script type="module" src="./homework4task1.js" defer></script>
-    <script type="module" src="./homework4task2.js" defer></script>
+    <script type="module" src="./homework4task2.js" defer></script> -->
+    <script type="module" src="./script.js" defer></script>
   </head>
   <body>
-    <h1>Мои координаты</h1>
-    <p>
-      <a
-        href="https://www.instagram.com/reel/C_uv4SuMfia/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-        target="_blank"
-        >Instagram</a
-      >
-    </p>
-    <p>
-      <a href="mailto:Kukussya2006@gmail.com" target="_blank"
-        >Email. Write me</a
-      >
-    </p>
-    <p>
-      <a
-        href="https://edu-canshecode.thinkific.com/courses/take/copy-of-super-pack-5-2024-20-2024a/texts/58154253-17-5"
-        target="_blank"
-        >Working</a
-      >
-    </p>
+    <h1>My feedback form</h1>
+    <ul>
+      <ul class="ulfirst">
+        <li> Name: <input type="text" id="name"></li>
+        <li> Email: <input type="email" id="email"></li>
+        <li> Password: <input type="password" id="password"></li>
+        <li> Please check all the emotions that apply to you:</li> 
+           <ul>
+             <li>Angry <input type="checkbox"></li>
+             <li>Sad <input type="checkbox"></li>
+             <li>Happy<input type="checkbox"></li>
+             <li>Ambivalent<input type="checkbox"></li>
+           </ul>
+        <li>How satisfied were you with our service?</li>
+           <ul>
+             <li> <label>Very satisfied <input type="radio" name="color" value="very satisfied"> </label></li>
+             <li> <label>Satisfied <input type="radio" name="color" value="satisfied "> </label></li>
+             <li><label>Didn't care <input type="radio" name="color" value="didn't care"> </label></li>
+             <li><label>Dissatisfied <input type="radio" name="color" value="dissatisfied" ></label></li>
+             <li><label>Very dissatisfied <input type="radio" name="color" value="Very dissatisfied"></label></li>
+          </ul>
+        <li> Futher comments: <input type="text"></li>
+        <li> Bio photo: <input type="text">
+          <input type="file"></li>
+        <li> <label for="location">Выберите локацию:</label>
+           <select id="location">
+              <option value="Italia">Italia</option>
+              <option value="Ukraine">Ukraine</option>
+           </select>
+    </li>
+  </ul>
+    <li><button onclick="nameK()">submit</button></li> 
+    </ul>
+    <!-- https://www.w3schools.com/js/js_events.asp -->
+     <!-- https://www.geeksforgeeks.org/javascript-events/ -->
+    <!-- on  прочитати events-->
   </body>
 </html>

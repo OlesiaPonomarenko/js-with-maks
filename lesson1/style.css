@@ -1,0 +1,28 @@
+.q {
+    color: red;
+}
+img {
+    width: 700px;
+    height: 700px;
+}
+div {
+    position: absolute;
+    top: 50px;
+
+}
+
+h1 {
+    margin-left: 250px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.thirds {
+    margin-top: 40px;
+}
+
+.second {
+    margin-top: 40px;
+}

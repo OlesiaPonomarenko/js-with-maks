@@ -1,0 +1,51 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 12px;
+    border: 1px solid #212121;
+    padding: 8px;
+}
+button {
+    border-radius: 10px;
+    padding: 5px;
+}
+ ul {
+    list-style-type: disc;
+ }
+
+ select {
+     width: 300px;
+     /* Ширина поля ввода */
+     padding: 10px;
+     /* Отступы */
+     border: 1px solid #ccc;
+     /* Граница */
+     border-radius: 5px;
+     /* Закругленные углы */
+     appearance: none;
+     /* Убираем стандартный стиль */
+     background-color: #fff;
+     /* Цвет фона */
+     position: relative;
+     /* Позиционирование для стрелочек */
+    content: '▼';
+ }
+
+ select::after {
+     content: '▼';
+     /* Стрелочка вниз */
+     color: blue;
+     /* Цвет стрелочки */
+     position: absolute;
+     right: 10px;
+     top: calc(50% - 10px);
+     /* Центрирование */
+     pointer-events: none;
+     /* Чтобы клики не проходили через стрелочку */
+ }
+
+ select:focus::after {
+     content: '▲';
+     /* Стрелочка вверх при фокусе */
+ }

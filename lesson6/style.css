@@ -1,0 +1,49 @@
+body {
+    font-family: roboto;
+
+h1 {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 10;
+    margin-top: 0px;
+    letter-spacing: 0.1em;
+}
+
+p {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+}
+
+.a {
+    display: inline-block;
+}
+.h2h3 {
+    display: inline-block;
+}
+
+img {
+    height: 300px;
+    object-fit: cover;
+    width: 60px;
+}
+
+ .img1 {
+  display: inline-block;
+  margin-left: 0px;
+}
+
+ .container {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 300px;
+ }
